@@ -15,6 +15,7 @@ body {
   background: #e3f4ff;
   margin-bottom: 8px;
   padding: 8px;
+  font-size: 16px;
 }
 
 .content {
@@ -26,8 +27,6 @@ body {
 div.button-container {
   background: #e3f4ff;
   padding: 8px;
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
 }
 
@@ -36,6 +35,5 @@ button {
   border: 1px solid #eee;
   padding: 8px 24px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
