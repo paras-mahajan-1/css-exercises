@@ -46,3 +46,37 @@ a {
 ul {
   list-style-type: none;
 }
+
+body > .header , body > .header > .section-1> .links{
+  display: flex;
+}
+
+body > .header > .section-1, body > .header > .section-2{
+  display: flex;
+}
+
+body > .header > .section-1> .links{
+  gap: 8px;
+}
+
+body > .header > .section-1{
+  margin-right: auto;
+}
+
+body > .header > .section-2> button{
+  margin: 8px 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+}
+
+body > .header > .section-2 {
+  gap: 8px;
+}
+body > .header > .section-2 > .profile-image{
+  align-self: center;
+  flex-shrink: 0;
+}
+
+body > .header{
+  padding: 0 16px;
+}
