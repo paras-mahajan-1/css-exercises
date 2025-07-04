@@ -13,6 +13,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  box-sizing: border-box;
+  
 }
 
 .modal {
@@ -66,4 +68,40 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+body > div.modal{
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+body > div.modal> .icon{
+  flex-shrink: 0;
+}
+
+body > div.modal> .main > .header{
+  font-size: 20px;
+  font-weight: 900;
+}
+body > div.modal> .main{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0 10px;
+}
+
+body > div.modal > .icon{
+  color: purple;
+}
+.buttons> .continue{
+  background-color: purple;
+  color: white;
+}
+.buttons> .cancel{
+  color: purple;
+}
+
+.buttons{
+  margin-top: 10px;
 }
